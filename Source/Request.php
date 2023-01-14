@@ -1,6 +1,6 @@
 <?php
 
-namespace Saeghe\Weather;
+namespace PhpRepos\Weather;
 
 class Request
 {

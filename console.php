@@ -1,7 +1,7 @@
 <?php
 
-use Saeghe\Weather\Request;
-use function Saeghe\Weather\Weather\get;
+use PhpRepos\Weather\Request;
+use function PhpRepos\Weather\Weather\get;
 
 $request = new Request();
 $request->ansi();

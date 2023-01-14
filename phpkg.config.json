@@ -1,0 +1,22 @@
+{
+    "map": {
+        "PhpRepos\\Weather": "Source",
+        "Tests": "Tests"
+    },
+    "entry-points": [
+        "console.php"
+    ],
+    "excludes": [],
+    "executables": [],
+    "packages-directory": "Packages",
+    "packages": {
+        "git@github.com:php-repos\/test-runner.git": "v1.0.0",
+        "git@github.com:php-repos\/datatype.git": "v1.0.0",
+        "git@github.com:php-repos\/file-manager.git": "v1.0.0"
+    },
+    "aliases": {
+        "test-runner": "git@github.com:php-repos\/test-runner.git",
+        "datatype": "git@github.com:php-repos\/datatype.git",
+        "file-manager": "git@github.com:php-repos\/file-manager.git"
+    }
+}

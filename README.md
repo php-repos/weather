@@ -1,25 +1,25 @@
-# Weather forecast package for Saeghe
+# Weather forecast package
 
 ## Introduction
 
-This package is a Saeghe package for the weather forecasts. 
+This package is a php package for the weather forecasts. 
 
-This is a sample package for using in the [Saeghe](https://saeghe.com)'s `run` command.
+This is a sample package for using in the [phpkg](https://phpkg.com)'s `run` command.
 
 ### Usages
 
-You can run this package and see the result without installing it using Saeghe:
+You can run this package and see the result without installing it using `phpkg`:
 
 ```shell
-saeghe run https://github.com/saeghe/weather.git
+phpkg run https://github.com/php-repos/weather.git
 ```
 
 Here is a sample output of running it using the `run` command:
 
 ![wather-forecast-using-run.png](wather-forecast-using-run.png)
 
-If you need to install this package in your Saeghe application, then you can use Saeghe's `add` command:
+If you need to install this package in your application, then you can use phpkg's `add` command:
 
 ```shell
-saeghe add https://github.com/saeghe/weather.git
+phpkg add https://github.com/php-repos/weather.git
 ```

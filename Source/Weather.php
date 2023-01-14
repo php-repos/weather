@@ -1,6 +1,6 @@
 <?php
 
-namespace Saeghe\Weather\Weather;
+namespace PhpRepos\Weather\Weather;
 
 function get(string $url): string
 {
